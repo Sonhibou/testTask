@@ -1,0 +1,142 @@
+
+ header{
+     display: flex;
+     align-items: center;
+     padding: 10px 2%;
+     
+ }
+ .logo{
+     cursor: pointer;
+     width: 10%;
+ }
+ .navbar{
+     list-style: none;
+     justify-content: flex-end;
+     margin-left: auto;
+ }
+ .navbar li{
+     display: inline-block;
+     padding: 0% 20px;
+     
+ }
+ .navbar li a {
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+ }
+ .navbar li a:hover {
+     color : #EE7730
+ }
+ 
+ .bar-connexion{
+     background-color:#EE7730 ;
+     height: 15%;
+ }
+ .bar-connexion b{
+     color: white;
+     margin-left: 70%;
+     font-size: 20px;
+     position: relative;
+     padding-top: 10%;
+ }
+ .partie-bleu{
+    background-color:#034f89 ;
+    height: 73%;
+ }
+ .logodev{
+     width: 30%;
+     padding-left: 55%;
+     padding-top: 5%;  
+ }
+ .formulaire{
+   position: absolute;
+   top : 25%;
+   left: 7%;
+   background: white;
+   height: 400px;
+   width: 500px;
+ }
+ .formulaire h1{
+     text-align: center;
+ }
+ .formulaire form{
+     padding: 0 40px;
+     box-sizing: border-box;
+ }
+ form .field{
+     position: relative;
+     margin: 30px 0;
+ }
+ .field input{
+     width: 80%;
+     padding: 0 5px;
+     height: 40px;   
+ }
+
+/* CSS Accueil */
+.nav-blue{
+    background: #eff0f6;
+    display: flex;
+    width: 94%;
+    margin-left: 50px;
+    display: inline-block;
+}
+.info{
+    display: flex;
+}
+.item{
+    flex: 1;
+}
+.question{
+    padding-top: 100px;
+}
+.question hr{
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #e9cab8;
+    border-radius: 20px;
+}
+.question h1{
+    color : #6a91a7;
+    text-align: center;
+    font-size: 30px;
+}
+.question .p1{
+    text-align: center;
+    
+}
+.question .p2{
+    text-align: center;
+    
+}
+.site-orange{
+    background: #f47a37;
+    width: 94%;
+    margin-left: 50px;
+    height: 150px;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.label{
+    
+    color: white;
+    position: relative;
+    flex: 1;
+    font-size: 20px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.button input{
+    margin-top: 40px;
+    background: #0e5482;
+    color: white;
+    border-radius: 20px;
+    margin-left: 89%;
+    width: 8%;
+    height: 35px;
+    font-size: 23px;
+}

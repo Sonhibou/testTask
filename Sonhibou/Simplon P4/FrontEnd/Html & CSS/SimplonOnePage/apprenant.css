@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav{
+    display: inline-block;
+}
+nav li{
+    text-decoration: none;
+}
+.bandeRouge h2{
+    text-align: center;
+    color: white; 
+    font-style: Bold;
+    padding-top: 70px;
+    font-weight: bold;
+}
+.apprenant{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h3{
+    padding-left: 25px;
+    text-align: left;
+    font-size: 1em; 
+    font-weight: bold;
+} 
+.row{
+    margin: 20px;
+    margin-top: 80px;
+}
+.cercle{
+    background-color:#CE0033;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-style: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    width: 55px;
+    margin-top: -60px;
+    border-radius: 50%;
+    margin-left: 40%;
+    
+}
+.cercle-blanc{
+    background-color: white;
+    border : solid 1px;
+    color: #CE0033;
+    border-color: #CE0033;
+    padding: 13px;
+    text-align: center;
+    font-style: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    width: 55px;
+    margin-top: -60px;
+    border-radius: 50%;
+    margin-left: 40%;   
+}
+hr{
+    margin-left: 50%;
+    width: 80%;
+    height: 5px;
+}
+.barre{
+    width: 70px;
+    height: 8px;
+    background: #CE0033;
+    margin-left: 26px;
+    margin-top: -4px;
+}
+.col-lg-3 h3{
+    color: #CE0033;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;   
+}
+.col-lg-3 span{
+    margin-top: -4px;
+    font-size: 0.9em;
+}
+.column2{
+    opacity: 0.3;
+}
+.column3{
+    opacity: 0.3;
+}
+.column4{
+    opacity: 0.3;
+}
+.logo{
+    width: 207px;
+    height: 59px;
+}/* ----------------------Appel à candidature en cours -------------------- */
+/* .candidature { 
+    margin-left: 30px;
+    margin-right: 30px;
+}  */
+.candidature .card{
+    border: none;
+    margin-left: 100px;
+}
+.candidature img{
+    width: 80%;
+    height: 200px;
+}
+.candidature .card-body{
+    padding-top: 45px;
+    
+} 
+/* ----------------------Class Formateur ----------------------*/
+.formateur h3{
+    margin-left: 20px;
+}
+.formateur .barre{
+    margin-left: 43px;
+}
+.bande-rouge-formateur h3{
+    color: white;
+    width: 30%;
+    text-align: center;
+  
+}
+.bande-rouge-formateur p{
+    color: white;
+    width: 30%;
+    margin-left: 70px;
+    line-height: 2;
+}
+.bande-rouge-formateur h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.bande-rouge-formateur .btn-formateur{
+    background: white;
+    border: none;
+    color: #CE0033;
+    margin-left: 220px;
+    height: 40px;
+    border : 1px solid #CE0033;
+    border-radius: 10px;
+}
+.bande-rouge-formateur .btn-formateur:hover{
+    background-color:  #CE0033;
+    color: white;
+    border: 1px solid white;
+}
+.formateur img{
+    margin-top: -150px;
+}
+/* ----------------------Entreprise ----------------------*/
+.entreprise h3{
+    margin-left: 20px;
+}
+.entreprise .barre{
+    margin-left: 43px;
+}
+.navbar-nav{
+    
+}
